@@ -1,0 +1,647 @@
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2B2A29;
+}
+
+header {
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.footer-link a {
+    text-decoration: none;
+}
+
+.uk-sticky.uk-active {
+    box-shadow: 0 4px 8px rgba(82, 82, 82, 0.2);
+}
+
+.uk-navbar-nav > li > a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #2B2A29;
+    text-transform: none;
+    border-bottom: 4px solid transparent;
+    transition: all .2s ease-in;
+}
+
+.uk-navbar-nav > li > a:hover {
+    color: inherit;
+    border-color: #13BF49;
+}
+
+.link-btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #13BF49;
+    border: 2px solid #13BF49;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(145, 145, 145, 0.16);
+}
+
+.link-btn:hover {
+    color: #ffffff;
+    border-color: #13BF49;
+    background-color: #13BF49;
+}
+
+.introduction-section {
+    background: url("../images/block-image.png") right 0 no-repeat;
+    -webkit-background-size: 34%;
+    background-size: 34%;
+    padding-bottom: 270px;
+}
+
+h1, h2, h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #2B2A29;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.title-block {
+    padding-left: 180px;
+}
+
+.title-block span {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #13BF49;
+}
+
+.title-block p {
+    font-size: 18px;
+    margin: 40px 0 60px;
+}
+
+.uk-button-group .link-btn {
+    background-color: #13BF49;
+    color: #ffffff;
+}
+
+.uk-button-group .link-btn:first-child {
+    margin-right: 20px;
+}
+
+.uk-button-group .link-btn:hover {
+    background-color: #fff;
+    color: #13BF49;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 50px;
+}
+
+
+/*------------------------About-Us-----------------------------*/
+
+.about-section {
+    padding-left: 80px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h2, .title h4 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #13BF49;
+}
+
+.about-section .title h2 {
+    margin-bottom: 60px;
+}
+
+.about-section p {
+    color: #4F4F4F;
+    margin: 0 0 60px;
+}
+
+.about-section p span {
+    font-weight: 500;
+    color: #13BF49;
+}
+
+.video-block {
+    height: 410px;
+}
+
+.video-block img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*------------------------Platforms-----------------------------*/
+
+.platforms-section {
+    padding-right: 20px;
+    padding-left: 120px;
+}
+
+.platforms-container {
+    background: url("../images/platforms-bg.svg") 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 50px 85px;
+}
+
+.platforms-section h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+    border-color: #ffffff;
+}
+
+.platforms-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platforms-block p {
+    max-width: 510px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.platform-images {
+    position: relative;
+    padding-right: 200px;
+}
+
+.smart-phones {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+
+
+/*------------------------Advantages-----------------------------*/
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.advantages-section {
+    padding-left: 100px;
+}
+
+.advantages-section .title h4 {
+    padding-bottom: 0;
+    border-width: 1px;
+}
+
+.advantage-text {
+    max-width: 510px;
+    width: 100%;
+    margin: 20px auto 40px;
+    color: #525252;
+}
+
+.mb {
+    margin-bottom: 130px;
+}
+
+.advantage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    max-width: 340px;
+    width: 100%;
+}
+
+.description h4 {
+    margin-bottom: 25px;
+}
+
+.description p {
+    color: #525252;
+    margin: 0;
+}
+
+
+
+/*------------------------Download-----------------------------*/
+
+.apps-section {
+    padding-right: 20px;
+    padding-left: 120px;
+}
+
+.apps-container {
+    position: relative;
+    background: url("../images/app-bg.svg") 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 35px 100px 55px;
+}
+
+.apps-block {
+    max-width: 530px;
+}
+
+.apps-block .title {
+    justify-content: flex-start;
+}
+
+.apps-block h2 {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.apps-block p {
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0;
+}
+
+.phones-image {
+    position: absolute;
+    top: -55px;
+    right: 80px;
+}
+
+.apps-section .uk-button-group {
+    padding: 40px 0 0 100px;
+}
+
+/*------------------------Services-----------------------------*/
+
+.services-section {
+    padding-left: 120px;
+}
+
+.services-text {
+    max-width: 600px;
+    width: 100%;
+    margin: 25px auto 0;
+    color: #525252;
+}
+
+.services-list {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: url("../images/Buildings.svg") right 0 no-repeat;
+}
+
+.service-card {
+    /*width: 285px !important;*/
+    padding: 20px 45px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 16px rgba(145, 145, 145, 0.16);
+    border-radius: 2px;
+}
+
+.image-container {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card h4 {
+    margin: 25px 0;
+}
+
+.service-card p {
+    color: #4F4F4F;
+    margin: 0 0 15px;
+}
+
+.service-card .link-btn {
+    background-color: #13BF49;
+    color: #ffffff;
+}
+
+.service-card .link-btn:hover {
+    background-color: #ffffff;
+    color: #13BF49;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+
+/*------------------------Partners-----------------------------*/
+
+.partners-section {
+    padding-left: 120px;
+}
+
+.partners-text {
+    max-width: 550px;
+    width: 100%;
+    margin: 20px auto 70px;
+    color: #525252;
+}
+
+.partner-card {
+    display: flex;
+    width: 190px;
+    height: 65px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    box-shadow: 0 6px 8px rgba(145, 145, 145, 0.16);
+    border-radius: 3px;
+}
+
+.partner-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/*------------------------Contacts-----------------------------*/
+
+.contacts-section {
+    padding-right: 20px;
+    padding-left: 120px;
+}
+
+.contacts-block {
+    background: url("../images/contacts-bg.svg") right 0 no-repeat;
+    padding: 40px 0 380px 140px;
+}
+
+.phone-numbers {
+    background: url("../images/contact-border.svg") center no-repeat;
+    width: 330px;
+    height: 260px;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.phone-numbers p {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 0 15px;
+}
+
+.phone-numbers p a {
+    color: #2B2A29;
+    text-decoration: none;
+}
+
+.phone-numbers p span {
+    color: #13BF49;
+}
+
+
+/*------------------------Footer-----------------------------*/
+
+footer {
+    background-color: #13BF49;
+}
+
+.footer-section {
+    padding-left: 120px;
+}
+
+.store-links {
+    display: flex;
+}
+
+.store-links a:first-child {
+    margin-right: 20px;
+}
+
+.footer-section p {
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+
+.footer-section p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mydom {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.breez {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.breez span {
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+.burger {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.uk-offcanvas-bar {
+    background: #ffffff;
+}
+
+.uk-offcanvas-bar .uk-close {
+    color: #999;
+}
+
+.uk-offcanvas-bar .uk-nav-primary>li>a {
+    color: #999999;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .introduction-section {
+        -ms-background-position-y: 80px;
+        background-position-y: 80px;
+        padding-bottom: 140px;
+    }
+
+    .title-block {
+        padding-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .about-section, .advantages-section, .partners-section, .services-section, .footer-section {
+        padding-left: 0;
+    }
+
+    .platforms-section, .apps-section, .contacts-section {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .title-block {
+        padding-left: 0;
+    }
+
+    .introduction-section {
+        -webkit-background-size: 40%;
+        background-size: 40%;
+    }
+
+    .phones-image {
+        display: none;
+    }
+
+    .contacts-block {
+        padding-left: 0;
+    }
+
+    .smart-phones {
+        width: 45%;
+    }
+
+    .platform-images {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .introduction-section {
+        background: none;
+        padding-bottom: 40px;
+    }
+
+    .contacts-block {
+        display: flex;
+        justify-content: flex-end;
+        -ms-background-position-y: 200px;
+        background-position-y: 200px;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+
+    .services-list {
+        padding-bottom: 0;
+    }
+
+    .mb {
+        margin-bottom: 0;
+    }
+
+    .breez {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .platforms-container {
+        padding: 50px 0 50px 30px;
+    }
+
+    .platform-images {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .smart-phones {
+        width: 250px;
+        left: 0;
+    }
+
+    .platform-images img:first-child {
+        max-width: 650px;
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    .apps-container {
+        padding: 35px 15px 40px;
+    }
+
+    .about-section .title h2,
+    .platforms-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .apps-section .uk-button-group {
+        padding-left: 15px;
+    }
+
+    .title-block .link-btn,
+    .apps-section .link-btn {
+        font-size: 10px;
+        padding: 0 15px;
+    }
+
+    .about-section p {
+        margin: 0 0 20px;
+    }
+
+    .contacts-block {
+        padding-top: 0;
+        -ms-background-position-y: 300px;
+        background-position-y: 300px;
+    }
+
+    .mydom {
+        text-align: left;
+    }
+
+    .breez {
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .phone-numbers {
+        -ms-background-position-x: 0;
+        background-position-x: 0;
+        width: 320px;
+    }
+
+    .phone-numbers p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

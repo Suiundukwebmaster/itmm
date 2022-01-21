@@ -144,6 +144,14 @@ h2 {
     width: 100%;
     height: 100%;
 }
+.video-block {
+background: url(image/ph1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 
 
 /*------------------------Platforms-----------------------------*/

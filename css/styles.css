@@ -78,7 +78,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #13BF49;
+    color: #c71585;
 }
 
 .title-block p {
@@ -87,7 +87,7 @@ h1 {
 }
 
 .uk-button-group .link-btn {
-    background-color: #13BF49;
+    background-color: #c71585;
     color: #ffffff;
 }
 
@@ -97,7 +97,7 @@ h1 {
 
 .uk-button-group .link-btn:hover {
     background-color: #fff;
-    color: #13BF49;
+    color: #c71585;
 }
 
 h2 {
@@ -335,7 +335,7 @@ h4 {
 
 .service-card .link-btn:hover {
     background-color: #ffffff;
-    color: #13BF49;
+    color: #c71585;
 }
 
 .align-center {
@@ -406,14 +406,14 @@ h4 {
 }
 
 .phone-numbers p span {
-    color: #13BF49;
+    color: #c71585;
 }
 
 
 /*------------------------Footer-----------------------------*/
 
 footer {
-    background-color: #13BF49;
+    background-color: #c71585;
 }
 
 .footer-section {
